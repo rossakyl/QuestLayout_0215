@@ -77,5 +77,14 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
             }
         }
     }
-
+    Box(
+        modifier = Modifier.fillMaxSize()
+    ){
+        Text(
+            stringResource(id=R.string.copy),
+            modifier = Modifier
+                .align(Alignment.BottomCenter)
+                .padding(bottom = 50.dp)
+        )
+    }
 }
