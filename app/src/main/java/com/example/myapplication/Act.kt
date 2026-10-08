@@ -51,6 +51,10 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                 containerColor = colorResource(id = R.color.card_0_bg)
             )
         ) {
+            Row() {
 
+            }
+        }
     }
+
 }
